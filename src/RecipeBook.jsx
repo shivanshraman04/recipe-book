@@ -309,7 +309,6 @@ function HomeView({ recipes, search, setSearch, openRecipe, startNew, authed }) 
     <div style={styles.container}>
       <header style={styles.header}>
         <h1 style={styles.title}>Mom's Recipes</h1>
-        <p style={styles.subtitle}>Family cookbook, refined by you</p>
       </header>
 
       <div style={styles.searchRow}>
