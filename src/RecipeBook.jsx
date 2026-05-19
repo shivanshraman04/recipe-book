@@ -417,7 +417,7 @@ function DetailView({ recipe, onBack, onEdit, onDelete, authed }) {
       )}
 
       {(recipe.ingredients.some((i) => i.item.trim()) || recipe.method.trim()) && (
-        <Section title="My Measured Version" emoji="⚖️">
+        <Section title="Measured Version" emoji="⚖️">
           {recipe.ingredients.some((i) => i.item.trim()) && (
             <div style={styles.ingTable}>
               {recipe.ingredients.filter((i) => i.item.trim()).map((ing, i) => (
